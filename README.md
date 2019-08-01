@@ -14,9 +14,9 @@ The second x,y pair is the starting location of the vacuum.
 The third  through N pairs of x,y coordinates are known patches which need to be cleaned.
 The last line is driving instructions with N for go north, S for go south, E for go East and W for go West.
 
-The program can be ran by downloading the files and compiling them in any IDE or with javac.  HooverAI was written using Java 1.8.
+The program can be executed by downloading the files and compiling them in any IDE or with javac.  HooverAI was written using Java 1.8.
 
-Program can be run from command line using: java ext.tools.com.hooverai.HooverAI
+Program can be executed from command line using: <b>java ext.tools.com.hooverai.HooverAI</b>
 
 Note the input.txt file is expected at the same location as the HooverAI.class.  If no input.txt file is found the program defaults to the input shown above as a sample.
 
@@ -25,15 +25,15 @@ Note the input.txt file is expected at the same location as the HooverAI.class. 
 Appendix - File Descriptions:
 
 
-ext.tools.hooverai.HooverAI  // Main class, manages program flow and output
+ext.tools.hooverai.HooverAI  // Main class, manages program flow and output<br>
 
-ext.tools.hooverai.model.DataPoint // Simple data structure to hold x,y coordinates
-ext.tools.hooverai.model.HooverAIDataHolder // Data structure to hold all program data input and output as well as runtime discovery
+ext.tools.hooverai.model.DataPoint // Simple data structure to hold x,y coordinates<br>
+ext.tools.hooverai.model.HooverAIDataHolder // Data structure to hold all program data input and output as well as runtime discovery<br>
 
-ext.tools.hooverai.engine.HooverAIDataProcessor // Engine class which drives the hoover for processing
+ext.tools.hooverai.engine.HooverAIDataProcessor // Engine class which drives the hoover for processing<br>
 
-input.txt  // input file which resides in same direcory as HooverAI.class
-HooverAI.properties // properties file for debug which resides in same directory as HooverAI.class
+input.txt  // input file which resides in same direcory as HooverAI.class<br>
+HooverAI.properties // properties file for debug which resides in same directory as HooverAI.class<br>
 
 
 
