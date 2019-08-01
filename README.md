@@ -22,7 +22,7 @@ Note the input.txt file is expected at the same location as the HooverAI.class. 
 
 
 
-Appendix - File Descriptions:
+<b>Appendix - File Descriptions:</b>
 
 
 ext.tools.hooverai.HooverAI  // Main class, manages program flow and output<br>
