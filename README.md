@@ -1,13 +1,13 @@
 # HooverAI
 This project is for demonstration only.  Thank you.
 
-This project emulates an automated vacuum based on an x,y coordinate system.  The program takes a file input.txt in the following format:
-5 5
-1 2
-1 0
-2 2
-2 3
-NNESEESWNWW
+This project emulates an automated vacuum based on an x,y coordinate system.  The program takes a file input.txt in the following format:<br>
+5 5<br>
+1 2<br>
+1 0<br>
+2 2<br>
+2 3<br>
+NNESEESWNWW<br>
 
 The first x,y pair 5 5 is the size of the grid the vacuum can hoover over.
 The second x,y pair is the starting location of the vacuum.
