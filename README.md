@@ -16,5 +16,9 @@ The last line is driving instructions with N for go north, S for go south, E for
 
 The program can be ran by downloading the files and compiling them in any IDE or with javac.  HooverAI was written using Java 1.8.
 
+Program can be run from command line using: java ext.tools.com.hooverai.HooverAI
+
+Note the input.txt file is expected at the same location as the HooverAI.class.  If no input.txt file is found the program defaults to the input shown above as a sample.
+
 
 
