@@ -22,3 +22,18 @@ Note the input.txt file is expected at the same location as the HooverAI.class. 
 
 
 
+Appendix - File Descriptions:
+
+
+ext.tools.hooverai.HooverAI  // Main class, manages program flow and output
+
+ext.tools.hooverai.model.DataPoint // Simple data structure to hold x,y coordinates
+ext.tools.hooverai.model.HooverAIDataHolder // Data structure to hold all program data input and output as well as runtime discovery
+
+ext.tools.hooverai.engine.HooverAIDataProcessor // Engine class which drives the hoover for processing
+
+input.txt  // input file which resides in same direcory as HooverAI.class
+HooverAI.properties // properties file for debug which resides in same directory as HooverAI.class
+
+
+
