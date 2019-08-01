@@ -16,7 +16,5 @@ The last line is driving instructions with N for go north, S for go south, E for
 
 The program can be ran by downloading the files and compiling them in any IDE or with javac.  HooverAI was written using Java 1.8.
 
-To skip compilation and just run the program an executable jar has been built as part of the distribution.  The jar command would be:
-java -jar HooverAI.jar
 
 
