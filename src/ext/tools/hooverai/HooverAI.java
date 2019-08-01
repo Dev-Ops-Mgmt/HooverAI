@@ -53,7 +53,7 @@ public class HooverAI {
             if (debug) {
                 System.out.println(fileNotFoundException.getMessage());
             }
-            System.out.println("Error retriving input.txt file, no worries, continuing with default input");
+            System.out.println("Error retrieving input.txt file, no worries, continuing with default input");
             defaultInput = true;
         }
 
@@ -67,13 +67,13 @@ public class HooverAI {
             if (debug) {
                 System.out.println(ioException.getMessage());
             }
-            System.out.println("Error retriving properties file, no worries, continuing with default properties");
+            System.out.println("Error retrieving properties file, no worries, continuing with default properties");
             defaultProps = true;
         } catch (NullPointerException nullPointerException) {
             if (debug) {
                 System.out.println(nullPointerException.getMessage());
             }
-            System.out.println("Error retriving properties file, no worries, continuing with default properties");
+            System.out.println("Error retrieving properties file, no worries, continuing with default properties");
             defaultProps = true;
         }
 
